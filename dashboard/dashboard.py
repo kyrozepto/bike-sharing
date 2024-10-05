@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Bike Rental Dashboard")
-day_df = pd.read_csv("main_data.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_df = pd.read_csv("dashboard/main_data.csv")
+hour_df = pd.read_csv("data/hour.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 min_date = hour_df["dteday"].min()

@@ -12,7 +12,6 @@ min_date = hour_df["dteday"].min()
 max_date = hour_df["dteday"].max()
 
 with st.sidebar:
-    # st.image("path_to_image.png", use_column_width=True)
     st.title("Filter by Date🗓️")
     start_date, end_date = st.date_input(
         label='Rentang Waktu',

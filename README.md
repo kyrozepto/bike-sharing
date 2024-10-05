@@ -18,6 +18,7 @@ Project ini menampilkan dashboard Streamlit dan memvisualisasikan data Bike Shar
    ```
 2. Jalankan Streamlit:
    ```bash
+   cd dashboard
    streamlit run dashboard.py
    ```
 3. Akses dashboard di browser web `http://localhost:8501`

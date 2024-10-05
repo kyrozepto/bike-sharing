@@ -10,7 +10,6 @@ Project ini menampilkan dashboard Streamlit dan memvisualisasikan data Bike Shar
 ## Installation
 1. Klon repositori:
    ```bash
-   git clone https://github.com/kyrozepto/bike-sharing.git
    cd bike-sharing
    pipenv install
    pipenv shell
